@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 100%;
+    border: 0px solid red;
+    background-color: black;
+    height: 100vh;
+    
+}
+
+.img1{
+    width: 100%;
+}
+
+.approval{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin: auto;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    margin-top: -5px;
+}
+
+.logoflex{
+    display: flex;
+    cursor: pointer;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hostel{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.logospan{
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 0px solid blue;
+    padding: 10px;
+    flex-grow: 1;
+    
+}
+
+.rak{
+    font-size: 13px;
+    color: #959595;
+}
+
+.logoflex>img{
+    width: 50px;
+    
+    
+}
+.extra{
+    color: white;
+    background-color:#141414 ;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    padding: 10px;
+    padding-left: 30px;
+    color: #959595;
+}
+
+.extra2{
+    display: flex;
+    gap: 10px;
+}
+
+.mainsec{
+    background-color: #141414;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    /* font-weight: 500; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+   
+
+}
+
+.liness{
+    width: 200px;
+    display: block;
+    border: 1px solid white;
+    border-style:dashed;
+    margin-top: 10px;
+}
+
+.boot{
+    background-color: black;
+    height:40px;
+    margin-top: -5px;
+   
+}
+
+.btt{
+    position: absolute  ;
+    bottom: 0;
+}
+
+form{
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+}
+
+form>input{
+    height: 35px;
+    padding-left: 10px;
+}
+
+form>button{
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: 0;
+    cursor: pointer;
+}
